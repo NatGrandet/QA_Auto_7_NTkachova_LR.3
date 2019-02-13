@@ -29,7 +29,7 @@ public class Teacher extends Human {
 
     @Override
     public String contactInfo() {
-        return super.contactInfo();
+        return "Teacher's contact information " + super.contactInfo();
     }
 
 

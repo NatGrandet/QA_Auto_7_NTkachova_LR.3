@@ -21,7 +21,7 @@ public class Student extends Human {
 
     @Override
     public String contactInfo() {
-        return super.contactInfo();
+        return "Student's contact information " + super.contactInfo();
     }
 
     //    Getters and Setters
